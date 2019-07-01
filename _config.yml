@@ -1,11 +1,11 @@
 # Site settings
-title: Bird
-SEOTitle: Bird的博客 | Bird
+title: Asters
+SEOTitle: Asters 主页 | Asters
 header-img: img/home-bg.jpg
-email: whitebird827@163.com
-description: "无聊世界和有趣事"
-keyword: "机器学习,神经网络,自然语言"
-url: "https://white-bird.github.io"              # your host, for absolute URL
+email: AstersTrio@gmail.com
+description: "ddddddddddddddddddddddddd"
+keyword: "kkkkkkkkkkkkkkkkkkkk"
+url: "https://astersai.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
@@ -14,7 +14,7 @@ baseurl: ""                             # for example, '/blog' if your blog host
 RSS: false
 #weibo_username:     aaaa
 #zhihu_username:     aaaa
-github_username:    white-bird
+github_username:    astersai
 #facebook_username:  aaaa
 # linkedin_username:  firstname-lastname-idxxxx
 

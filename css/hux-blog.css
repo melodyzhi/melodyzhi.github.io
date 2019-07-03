@@ -1259,3 +1259,14 @@ img::-moz-selection {
 .page-fullscreen footer .copyright a:hover {
   color: #ddd;
 }
+
+@media (min-width: 768px) {
+  .media-content {
+    width: 50%;
+  }
+}
+@media (max-width: 600px) {
+  .media-content {
+    width: 100%;
+  }
+}

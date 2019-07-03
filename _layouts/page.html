@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Page Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+<header class="intro-header" style="margin-bottom:0px;background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
@@ -17,183 +17,53 @@ layout: default
     </div>
 </header>
 
-<!-- Main Content -->
+<section class="header3 cid-r3otdsLP1U mbr-fullscreen" id="header3-9" style="background-color:rgba(115,115,115,0.2)">
 <div class="container">
-	<div class="row">
-        {% if site.sidebar == false %}
-<!-- NO SIDEBAR -->
-    <!-- PostList Container -->
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 postlist-container">
-                {{ content }}
-            </div>
-    <!-- Sidebar Container -->
-            <div class="
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                sidebar-container">
-
-                <!-- Featured Tags -->
-                {% if site.featured-tags %}
-                <section>
-                    <!-- no hr -->
-                    <h5><a href="{{'/tags/' | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
-                    <div class="tags">
-        				{% for tag in site.tags %}
-                            {% if tag[1].size > {{site.featured-condition-size}} %}
-                				<a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
-                                    {{ tag[0] }}
-                                </a>
-                            {% endif %}
-        				{% endfor %}
-        			</div>
-                </section>
-                {% endif %}
-
-                <!-- Friends Blog -->
-                {% if site.friends %}
-                <hr>
-                <h5>FRIENDS</h5>
-                <ul class="list-inline">
-                    {% for friend in site.friends %}
-                        <li><a href="{{friend.href}}">{{friend.title}}</a></li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
-            </div>
-        {% else %}
-
-<!-- USE SIDEBAR -->
-    <!-- PostList Container -->
-    		<div class="
-                col-lg-8 col-lg-offset-1
-                col-md-8 col-md-offset-1
-                col-sm-12
-                col-xs-12
-                postlist-container
-            ">
-    			{{ content }}
-    		</div>
-    <!-- Sidebar Container -->
-            <div class="
-                col-lg-3 col-lg-offset-0
-                col-md-3 col-md-offset-0
-                col-sm-12
-                col-xs-12
-                sidebar-container
-            ">
-                <!-- Featured Tags -->
-                {% if site.featured-tags %}
-                <section>
-                    <hr class="hidden-sm hidden-xs">
-                    <h5><a href="{{'/tags/' | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
-                    <div class="tags">
-                        {% for tag in site.tags %}
-                            {% if tag[1].size > {{site.featured-condition-size}} %}
-                                <a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
-                                    {{ tag[0] }}
-                                </a>
-                            {% endif %}
-                        {% endfor %}
+	<div class="row", style="padding:40px">
+<!-- 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 "> -->
+                <div class="hidden-xs" style="float:right;width: 50%;height:50%" align="center">
+                    <img src="img/1-2.gif" alt="Mobirise" title="" style="width: 80%;height:70%" align="center">
+                    <!-- <img src="http://i4.bvimg.com/634539/d3d1d3391a12d9e3.gif" alt="Mobirise" title=""> -->
+                </div>
+                <div class="media-content" style = "float:left">
+<!--                     <h1 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-2">游戏场景任意破坏与重建算法研究&nbsp;</h1>
+                    <h3 class="mbr-section-subtitle align-left mbr-white mbr-light pb-3 mbr-fonts-style display-5">2018.7.3 - 2018.8.31 
+<div>网易互娱梦幻事业部&nbsp;</div></h3> -->
+                    <div class="mbr-section-text mbr-white pb-3 ">
+                        <p class="mbr-text mbr-fonts-style display-7">• 提出了基于体素模型和 Marching Cube 的一整套破坏与重建算法。
+                            <br>• 使用 Unity 3D 进行算法实现，在算法实现上进行了大量优化，来提高时间效率、空间效率以及模型质量。例如使用享元模式来共享游戏模型中相同的数据、将原来的递归操作转迭代操作、 将一些关键参数转换为 2 的指数幂，从而将耗时的运算转换为位运算、使用乐观策略进行模型分隔分析。
+                            <br>• 梦幻事业部已经打算将这个课题落地，运用在梦幻西游 3D 手游中。</p>
                     </div>
-                </section>
-                {% endif %}
 
-                <!-- Short About -->
-                <section class="visible-md visible-lg">
-                    <hr><h5><a href="{{'/about/' | prepend: site.baseurl }}">ABOUT ME</a></h5>
-                    <div class="short-about">
-                        {% if site.sidebar-avatar %}
-                            <img src="{{site.sidebar-avatar}}" />
-                        {% endif %}
-                        {% if site.sidebar-about-description %}
-                            <p>{{site.sidebar-about-description}}</p>
-                        {% endif %}
-                        <!-- SNS Link -->
-                        <ul class="list-inline">
-                            {% if site.RSS %}
-                            <li>
-                                <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            {% endif %}
-                            {% if site.twitter_username %}
-                            <li>
-                                <a href="https://twitter.com/{{ site.twitter_username }}">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            {% endif %}
-                            {% if site.zhihu_username %}
-                            <li>
-                                <a target="_blank" href="https://www.zhihu.com/people/{{ site.zhihu_username }}">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa  fa-stack-1x fa-inverse">知</i>
-                                    </span>
-                                </a>
-                            </li>
-                            {% endif %}
-                            {% if site.weibo_username %}
-                            <li>
-                                <a target="_blank" href="http://weibo.com/{{ site.weibo_username }}">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            {% endif %}
-                            {% if site.facebook_username %}
-                            <li>
-                                <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            {% endif %}
-                            {% if site.github_username %}
-                            <li>
-                                <a target="_blank" href="https://github.com/{{ site.github_username }}">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            {% endif %}
-                            {% if site.linkedin_username %}
-                            <li>
-                                <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            {% endif %}
-                        </ul>
+                    <div class="mbr-section-btn"><a class="btn btn-md btn-white-outline display-4" href="https://github.com/CyC2018/CyC2018.github.io/blob/master/doc/%E6%B8%B8%E6%88%8F%E5%9C%BA%E6%99%AF%E4%BB%BB%E6%84%8F%E7%A0%B4%E5%9D%8F%E4%B8%8E%E9%87%8D%E5%BB%BA%E7%AE%97%E6%B3%95%E7%A0%94%E7%A9%B6.md" target="_blank">More</a>
+                        </div>
+<!-- </div> -->
+                </div>
+                        </div>
+
+                </div>
+
+    </section>
+
+<section class="header3 cid-r3oxDq1Ohn mbr-fullscreen" id="header3-d" style="background-image:linear-gradient(to left top, #cebfaf, #767676)">
+<div class="container">
+	<div class="row", style="padding:40px">
+                <div class="hidden-xs" style="float:left;width: 50%" align="center">
+                    <img src="img/1-1014x325.png" alt="Mobirise" title="" style="width: 80%" align="center">
+                    <!-- <img src="http://i4.bvimg.com/634539/824e7a3e73bb13a1.png" alt="Mobirise" title=""> -->
+                </div>
+                <div class="media-content" style = "float:right">
+<h4 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-2">
+                    针对点云四边形网格生成算法研究</h4>
+                    <div class="mbr-section-text mbr-white pb-3 ">
+                        <p class="mbr-text mbr-fonts-style display-7">
+				                    
+                            <br>• 可以直接从点云数据生成四边形网格，省去了生成三角形网格的步骤，速度相比于 Remeshing 方法提高了数倍。
+                            <br>• 可以根据精度以及运行时间自适应地创建出不同大小的四边形网格。
+                            <br>• 论文已经被核心期刊“计算机辅助设计与图形学学报”正式接收。</p>
                     </div>
-                </section>
-                <!-- Friends Blog -->
-                {% if site.friends %}
-                <hr>
-                <h5>FRIENDS</h5>
-                <ul class="list-inline">
-                    {% for friend in site.friends %}
-                        <li><a href="{{friend.href}}">{{friend.title}}</a></li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
-    		</div>
-        {% endif %}
-	</div>
-</div>
+                </div>
+            </div>
+        </div>
+
+    </section>

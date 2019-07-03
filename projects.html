@@ -1,8 +1,8 @@
 ---
-title: Tags
+title: Projects
 layout: default
-description: 
-header-img: "img/tags-bg.jpg"
+description: 项目经历
+header-img: "img/tag-bg.jpg"
 ---
 
 <!-- Page Header -->
@@ -57,6 +57,9 @@ header-img: "img/tags-bg.jpg"
 				            {{ post.subtitle }}
 				        </h3>
 				        {% endif %}
+					<div class="post-content-preview">
+					    {{ post.content | strip_html | truncate:200 }}
+					</div>					    
 				    </a>
 				    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
 				</div>

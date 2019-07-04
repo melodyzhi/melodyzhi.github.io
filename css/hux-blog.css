@@ -331,7 +331,7 @@ h6 {
 h4 {
   font-size: .777778em;
   color: #00afef;
-  
+
 }
 a {
   color: #404040;
@@ -1440,6 +1440,7 @@ input[type="text"], input[type="password"], input[type="color"], input[type="dat
 }
 .headline h2 {
   font-size: calc(1.4em + .8vw);
+  color:#095875;
 }
 .custom-widget-title h6 {
   color: #00afef;

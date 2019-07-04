@@ -321,10 +321,6 @@ h3,
 h4,
 h5,
 h6 {
-  /* Hux learn from
-     *     TypeIsBeautiful,
-     *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
-     */
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti",
    "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", 
    "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
@@ -333,7 +329,9 @@ h6 {
   font-weight: bold;
 }
 h4 {
-  font-size: 21px;
+  font-size: .777778em;
+  color: #00afef;
+  
 }
 a {
   color: #404040;
@@ -740,6 +738,7 @@ pre code {
 .intro-header .post-heading h1 {
   font-size: 30px;
   margin-bottom: 24px;
+  letter-spacing: 0.1em;
 }
 .intro-header .post-heading .subheading,
 .intro-header .post-heading .meta {

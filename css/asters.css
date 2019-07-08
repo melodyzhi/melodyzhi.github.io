@@ -714,7 +714,7 @@ pre code {
 .intro-header .site-heading h1,
 .intro-header .page-heading h1 {
   margin-top: 0;
-  font-size: calc(1.4em + 1.2vw);
+  font-size: calc(1em + 1.2vw);
   letter-spacing: 0.1em;
 }
 .intro-header .site-heading .subheading,
@@ -1325,7 +1325,7 @@ body .blog article.category-whitepapers .post-featured-content > a: : after {
 }
 /* Mini Reset*/
   .page-title-title h1 {
-  font-size: calc(1.4em + 1.2vw);
+  font-size: calc(1em + 1.2vw);
   line-height: 1em;
 }
 h3 {

@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: SOLUTIONS
 layout: default
 description: 项目经历
 header-img: "img/project-bg.jpg"
@@ -19,55 +19,69 @@ header-img: "img/project-bg.jpg"
     </div>
 </header>
 
-<!-- Main Content -->
+<div style="height: 40px;width: 80px;background-color: #006ba4" >  
+    div1  
+</div> 
+
+<section class="header3 cid-r3otdsLP1U mbr-fullscreen" id="header3-9" style="background-color:#ffffff">
 <div class="container">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <!-- 标签云 -->
-			<div id='tag_cloud' class="tags">
-				{% for tag in site.tags %}
-				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
-				{% endfor %}
-			</div>
+    <div class="row", style="padding:40px">
+                <div class="hidden-xs" style="float:none;width: 50%;height:50%" align="center">
+                    <img src="img/ml.jpg" alt="Mobirise" title="" style="width:200;height:300" align="center">
+                </div>
+                <div class="media-content" style = "float:none">
+                    <div class="mbr-section-text mbr-white pb-3 ">
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            <h4 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-2"
+                                style="color:#111111;font-size:21px;font-weight:400;lettering-spacing:0.2em;">自动驾驶图像识别</h4>
+                            <br>滴滴</p>
+                    </div>
 
-            <!--<blockquote class="tag-comments">
-                标签命名规范：
-                    <li>行业观察、职位、公司优先使用中文</li>
-                    <li>外国产品、术语优先使用英文</li>
-            </blockquote>-->
+                    <div class="mbr-section-btn"><a class="btn btn-md btn-white-outline display-4" href="https://github.com/CyC2018/CyC2018.github.io/blob/master/doc/%E6%B8%B8%E6%88%8F%E5%9C%BA%E6%99%AF%E4%BB%BB%E6%84%8F%E7%A0%B4%E5%9D%8F%E4%B8%8E%E9%87%8D%E5%BB%BA%E7%AE%97%E6%B3%95%E7%A0%94%E7%A9%B6.md" target="_blank">More</a>
+                    </div>
+                </div>
+    </div>
 
-            <!-- 标签列表 -->
-			{% for tag in site.tags %}
-			<div class="one-tag-list">
-			  	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
-                    <span class="tag-text">{{ tag[0] }}</span>
-                </span>
-				{% for post in tag[1] %}
-				  <!-- <li class="listing-item">
-				  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-				  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-				  </li> -->
-				 <div class="post-preview">
-				    <a href="{{ post.url | prepend: site.baseurl }}">
-				        <h2 class="post-title">
-                            {{ post.title }}
-				        </h2>
-				        {% if post.subtitle %}
-				        <h3 class="post-subtitle">
-				            {{ post.subtitle }}
-				        </h3>
-				        {% endif %}
-					<div class="post-content-preview">
-					    {{ post.content | strip_html | truncate:200 }}
-					</div>					    
-				    </a>
-				    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-				</div>
-				<hr>
-				{% endfor %}
-			</div>
-			{% endfor %}
-
-		</div>
-	</div>
 </div>
+</section>
+
+<hr width="80%"> 
+
+<section class="header3 cid-r3oxDq1Ohn mbr-fullscreen" id="header3-d" style="background-color:#ffffff">
+<div class="container">
+    <div class="row", style="padding:40px">
+                <div class="hidden-xs" style="float:left;width: 50%" align="center">
+                    <img src="img/bi.jpg" alt="Mobirise" title="" style="width:75%;height:75%" align="left">
+                </div>
+                <div class="media-content" style = "float:right">
+                    <h4 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-2"
+                        style="color:#111111;font-size:21px;font-weight:400;lettering-spacing:0.2em;">用户画像</h4>
+                    <div class="mbr-section-text mbr-white pb-3 ">
+                        <p class="mbr-text mbr-fonts-style display-7">                                    
+                            <br>定制化</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+<hr width="80%"> 
+
+<section class="header3 cid-r3oxDq1Ohn mbr-fullscreen" id="header3-d" style="background-color:#ffffff">
+<div class="container">
+    <div class="row", style="padding:40px">
+                <div class="hidden-xs" style="float:right;width: 50%" align="center">
+                    <img src="img/wf.jpg" alt="Mobirise" title="" style="width:200;height:300" align="right">
+                </div>
+                <div class="media-content" style = "float:left">
+                    <h4 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-2"
+                        style="color:#111111;font-size:21px;font-weight:400;lettering-spacing:0.2em;">交通平台</h4>
+                    <div class="mbr-section-text mbr-white pb-3 ">
+                        <p class="mbr-text mbr-fonts-style display-7">                                    
+                            <br>平台搭建</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section> -->

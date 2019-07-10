@@ -794,7 +794,7 @@ h1,h2,h3,h4,h5,h6 {
 	border-bottom:30px;
 	position:relative;
 	bottom:-1px;
-	padding:30px 0;
+	padding:50px 0;
 	letter-spacing:2px;
 	font-size:25px;
 	font-weight: 400;
@@ -1361,7 +1361,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .brand .list dl dd p {
 	display:block;
-	margin:20px 50px;
+	margin:20px 60px;
 	color:#4d4c4c
 }
 .business {

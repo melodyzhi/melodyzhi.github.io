@@ -1355,11 +1355,12 @@ h1,h2,h3,h4,h5,h6 {
 .brand .list dl dd h4 {
 	display:block;
 	margin-bottom:10px;
-	font-weight:400
+	font-weight:400;
+	font-size:1em;
 }
 .brand .list dl dd p {
 	display:block;
-	margin:10px 40px;
+	margin:20px 40px;
 	color:#4d4c4c
 }
 .business {

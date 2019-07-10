@@ -15,17 +15,12 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div id="huxblog_navbar">
             <div class="navbar-collapse">
-                <a href="/">melodyzhi.github.io</a>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/page.html">Home</a></li>
-                    <li><a href="/about.html">About</a></li>
-                    <li><a href="/projects.html">Projects</a></li>
-                    <li><a href="/contact.html">Contact</a></li>
-<!--                     {% for page in site.pages %}{% if page.title %}
+                    {% for page in site.pages %}{% if page.title %}
                     <li>
                         <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                     </li>
-                    {% endif %}{% endfor %} -->
+                    {% endif %}{% endfor %}
                 </ul>
             </div>
         </div>

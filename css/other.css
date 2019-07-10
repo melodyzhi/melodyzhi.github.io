@@ -791,12 +791,13 @@ h1,h2,h3,h4,h5,h6 {
 }
 .boxlist .title h2 {
 	display:inline-block;
-	border-bottom:2px;
+	border-bottom:10px;
 	position:relative;
 	bottom:-1px;
 	padding:20px 0;
 	letter-spacing:2px;
-	font-size:24px;
+	font-size:25px;
+	font-weight: 400;
 	color:#232b34
 }
 .productservice {
@@ -1354,13 +1355,13 @@ h1,h2,h3,h4,h5,h6 {
 }
 .brand .list dl dd h4 {
 	display:block;
-	margin-bottom:10px;
+	margin-bottom:20px;
 	font-weight:400;
 	font-size:1.2em;
 }
 .brand .list dl dd p {
 	display:block;
-	margin:30px 40px;
+	margin:20px 50px;
 	color:#4d4c4c
 }
 .business {

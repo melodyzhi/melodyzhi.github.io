@@ -20,13 +20,13 @@
                         <a href="{{ site.baseurl }}/">Home</a>
                     </li>
                     <li>
-                        <a href="{{ site.baseurl }}/">About</a>
+                        <a href="{{ about.url | prepend: site.baseurl }}/">About</a>
                     </li>
                     <li>
-                        <a href="{{ site.baseurl }}/">Projects</a>
+                        <a href="{{ projects.url | prepend: site.baseurl }}/">Projects</a>
                     </li>
                     <li>
-                        <a href="{{ site.baseurl }}/">Contact</a>
+                        <a href="{{ contact.url | prepend: site.baseurl }}/">Contact</a>
                     </li>
 <!--                     {% for page in site.pages %}{% if page.title %}
                     <li>

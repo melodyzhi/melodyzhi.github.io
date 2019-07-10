@@ -1338,7 +1338,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .brand .list dl {
 	float:left;
-	width:25%
+	width:33%
 }
 .brand .list dl dt {
 	display:block;
@@ -1350,12 +1350,12 @@ h1,h2,h3,h4,h5,h6 {
 .brand .list dl dd {
 	display:block;
 	text-align:center;
-	margin:0
+	margin:10
 }
 .brand .list dl dd h4 {
 	display:block;
 	margin-bottom:10px;
-	font-weight:700
+	font-weight:400
 }
 .brand .list dl dd p {
 	display:block;

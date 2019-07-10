@@ -791,7 +791,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .boxlist .title h2 {
 	display:inline-block;
-	border-bottom:2px solid #f5ca45;
+	border-bottom:2px;
 	position:relative;
 	bottom:-1px;
 	padding:20px 0;

@@ -786,7 +786,7 @@ h1,h2,h3,h4,h5,h6 {
 	display:none
 }
 .boxlist .title {
-	border-bottom:1px solid #acacac;
+	border-bottom:4px;
 	text-align:center
 }
 .boxlist .title h2 {

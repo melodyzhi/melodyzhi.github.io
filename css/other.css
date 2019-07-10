@@ -1356,11 +1356,11 @@ h1,h2,h3,h4,h5,h6 {
 	display:block;
 	margin-bottom:10px;
 	font-weight:400;
-	font-size:1em;
+	font-size:1.2em;
 }
 .brand .list dl dd p {
 	display:block;
-	margin:20px 40px;
+	margin:25px 40px;
 	color:#4d4c4c
 }
 .business {

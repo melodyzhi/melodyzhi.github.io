@@ -8,8 +8,6 @@ header-img: "img/in-post/nlp_feature/post-bg-2015.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
-    - nlp
-    - 神经网络
     - 机器学习
 ---
 

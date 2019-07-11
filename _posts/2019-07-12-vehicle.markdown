@@ -1,0 +1,24 @@
+---
+layout:     post
+title:      "智慧交通平台建设"
+subtitle:   ""
+date:       2019-07-11
+author:     "xusj"
+header-img: "img/vehicle_1.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 平台建设
+---
+
+#### 功能模块 ：
+* 数据接入：接入各种来源包括但不限于：http，mysql，ftp，oracle等数据库数据到平台中。
+* 平台建设：搭建大数据平台，承载千亿级别数据的计算、存储、查询
+* 数据清洗统计：清洗归整接入的各种数据源，并按照场景统计相关指标，录入大数据仓库
+* 平台展示 : 搭建可视化展示平台,展示各种主题分析指标
+
+#### 技术栈和工具
+
+HBase, Hadoop, Spark, Java, Python, Hive, MySQL, Azkaban
+
+

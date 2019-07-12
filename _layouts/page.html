@@ -37,13 +37,16 @@ layout: default
                         <div class="section-text text-block " style="color:#4d4c4c" align="center">
                             <p>我们为企业和机构提供人工智能咨询服务，根据客户的业务场景，应用机器学习算法和工具帮助企业构建智能的数据产品和解决方案。</p>
                         </div>
-
-                       <div class="vc_empty_space" style="height: 40px" ><span class="vc_empty_space_inner"></span></div>
+                        <div class="zh post-container" style="margin:0 200px;"">
+                            {% capture about_ai %}{% include about/ai.md %}{% endcapture %}
+                            {{ about_ai | markdownify }}
+                        </div>
+<!--                        <div class="vc_empty_space" style="height: 40px" ><span class="vc_empty_space_inner"></span></div>
 
                         <div class="section-text text-block " style="color:#4d4c4c" align="center">
                             <p>面向客户
                                 <div class="vc_empty_space" style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
-                                <br>无论是没有足够资源应付所有工作的初创公司，或是有自己数据团队但缺乏人工智能经验的企业，在希望引入人工智能解决方案时面临着同样的起步挑战。在Asters的帮助下，您可以节省时间和雇佣成本，专注于自己的核心业务。</br></p>
+                                <br>无论是没有足够资源应付所有工作的初创公司，或是有自己数据团队但缺乏人工智能经验的企业，在引入人工智能解决方案时面临着同样的挑战。在Asters的帮助下，您可以节省时间和雇佣成本，专注于自己的核心业务。</br></p>
                         </div>  
                         
                         <div class="vc_empty_space" style="height: 40px" ><span class="vc_empty_space_inner"></span></div>
@@ -51,11 +54,11 @@ layout: default
                         <div class="section-text text-block " style="color:#4d4c4c" align="center">
                             <p>如何解决问题
                                 <li align="left">评估客户的现有能力和数据资源，一起制定目标</li>
-                                <li align="left">提供Demo或者小规模测试，证实机器学习模型能有效解决您的解决问题</a></li>
+                                <li align="left">提供Demo或者小规模测试，证实机器学习模型能有效解决您的问题</a></li>
                                 <li align="left">根据应用和维护成本，开发符合您的公司实际环境的模型</a></li>
                                 <li align="left">持续对模型进行优化维护以提高性能和适应外部环境变化</a></li>
                                 </p>
-                        </div>                      
+                        </div>  -->                     
                     </div> 
 
                     <div class="tab-pane fade" id="mim1562173079-823351655-1">

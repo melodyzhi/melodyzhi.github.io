@@ -2945,7 +2945,7 @@ Sections styles
    -webkit-box-sizing: border-box;
            box-sizing: border-box;
 
-   padding: 40px 0;
+   padding: 140px 0;
    overflow: hidden;
 }
 .medium-section{
@@ -8865,4 +8865,12 @@ div.pp_pic_holder{
    float: left; 
    margin: 20px; 
    color: white; 
+}
+
+.pb-20{
+   padding-bottom:20px;
+}
+
+.pt-20{
+   padding-top:20px;
 }

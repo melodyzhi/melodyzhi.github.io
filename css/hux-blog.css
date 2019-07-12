@@ -1,3 +1,4 @@
+
 @media (min-width: 1200px) {
   .post-container,
   .sidebar-container {
@@ -104,7 +105,7 @@
 .side-catalog .catalog-body .h3_nav {
   margin-left: 0;
   font-size: 13px;
-  font-weight: bold;
+  font-weight: 400;
 }
 .side-catalog .catalog-body .h4_nav,
 .side-catalog .catalog-body .h5_nav,
@@ -417,7 +418,7 @@ pre code {
 }
 .post-container h5 {
   font-size: 19px;
-  font-weight: 600;
+  font-weight: 400;
   color: gray;
 }
 .post-container h5 + p {
@@ -425,7 +426,7 @@ pre code {
 }
 .post-container h6 {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   color: gray;
 }
 .post-container h6 + p {
@@ -571,7 +572,7 @@ pre code {
   line-height: 1.7;
 }
 .navbar-custom .navbar-brand {
-  font-weight: 800;
+  font-weight: 400;
   color: white;
   height: 56px;
   line-height: 25px;
@@ -583,7 +584,7 @@ pre code {
   text-transform: uppercase;
   font-size: 12px;
   line-height: 20px;
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 .navbar-custom .nav li a:active {
@@ -840,7 +841,7 @@ pre code {
 .section-heading {
   font-size: 36px;
   margin-top: 60px;
-  font-weight: 700;
+  font-weight: 400;
 }
 .caption {
   text-align: center;
@@ -931,7 +932,7 @@ form .row:first-child .floating-label-form-group {
   line-height: 1.7;
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 1px;
   border-radius: 0;
   padding: 15px 25px;
@@ -960,7 +961,7 @@ form .row:first-child .floating-label-form-group {
   line-height: 1.7;
   text-transform: uppercase;
   font-size: 13px;
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 1px;
   padding: 10px;
   background-color: white;

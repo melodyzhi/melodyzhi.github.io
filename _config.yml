@@ -1,11 +1,11 @@
 # Site settings
-title: Asters
-SEOTitle: Asters | 专注数据解决方案
+title: 众筑钢构
+SEOTitle: 众筑钢构 | 专注数据解决方案
 header-img: img/home-bg.jpg
-email: AstersTrio@gmail.com
+email: 1991tea@gmail.com
 description: "ddddddddddddddddddddddddd"
 keyword: "kkkkkkkkkkkkkkkkkkkk"
-url: "https://astersai.github.io"              # your host, for absolute URL
+url: "https://melodyzhi.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
@@ -14,7 +14,7 @@ baseurl: ""                             # for example, '/blog' if your blog host
 RSS: false
 #weibo_username:     aaaa
 #zhihu_username:     aaaa
-github_username:    astersai
+github_username:    melodyzhi
 #facebook_username:  aaaa
 # linkedin_username:  firstname-lastname-idxxxx
 

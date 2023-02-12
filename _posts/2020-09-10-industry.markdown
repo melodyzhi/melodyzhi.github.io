@@ -1,0 +1,17 @@
+---
+layout:     post
+title:      "湖州供销荣恒石油加油站"
+subtitle:   "subtitleAAA"
+date:       2020-09-10
+author:     "众筑钢构"
+header-img: "img/in-post/blog-petro.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 加油站
+---
+
+湖州供销荣恒石油加油站位于吴兴区三环东路，由众筑钢构承建。
+
+
+
